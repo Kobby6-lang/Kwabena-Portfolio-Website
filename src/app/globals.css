@@ -17,6 +17,7 @@
 	--blue-100: #e2f8ff;
 	--blue-400: #61dafb;
 	--blue-800: #0a61ae;
+	--purple-100: #913f92;
 }
 
 body {
@@ -162,6 +163,7 @@ header {
 
   &.white
   {
+	padding-right: 30px;
     background-color: white;
     color: var(--base-800);
     &:hover
