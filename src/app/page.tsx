@@ -48,14 +48,14 @@ export default function Home() {
                         My interests are watching anime, reading manga/manhua/manhwa and light novels, playing games, and playing badminton and table tennis.
                         </span>
                     </p>
-                    <div className="call to action">
-                        <a href="./Kwabena CV template.pdf" className="button black"> 
-                            View Resume
-                        </a>
-                        <a href="mailto: koseitutu03@gmail.com" className="button white"> 
-                            Contact Me
-                        </a>
-                    </div>
+                      <div className="call to action">
+                      <a href="./Kwabena CV template.pdf" className="button black button-spacing">
+                        View Resume
+                      </a>
+                      <a href="mailto:koseitutu03@gmail.com" className="button white">
+                        Contact Me
+                      </a>
+                      </div>
                     <div className="social-links">
                         <a href="https://linktr.ee/kobby6">
                             <img src="./imgs/Linktree.png" alt="Github" width="48" /> 

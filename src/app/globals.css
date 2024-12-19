@@ -147,43 +147,46 @@ header {
 
 }
 
-.button
-{
-  display: inline-block;
-  padding: 10px 30px;
-  background-color: var(--blue);
-  color: var(--base-100);
-  border-radius: 10px;
-  transition: ease 0.3s all;
-  &:hover
-  {
-    text-decoration: none;
-    background-color: var(--base-800);
+.button {
+	display: inline-block;
+	padding: 10px 30px; /* General button padding */
+	background-color: var(--blue);
+	color: var(--base-100);
+	border-radius: 10px;
+	transition: ease 0.3s all;
+	&:hover {
+	  text-decoration: none;
+	  background-color: var(--base-800);
+	}
   }
-
-  &.white
-  {
-	padding-right: 30px;
-    background-color: white;
-    color: var(--base-800);
-    &:hover
-    {
-      background-color: var(--base-100);
-      color: var(--base);
-    }
+  
+  .button.white {
+	padding: 10px 30px; /* Specific padding for white buttons */
+	background-color: white;
+	color: var(--base-800);
+	&:hover {
+	  background-color: var(--base-100);
+	  color: var(--base);
+	}
   }
-
-  &.black
-  {
-    background-color: black;
-    color: white;
-    &:hover
-    {
-      background-color: var(--base);
-      color: var(--base-100);
-    }
+  
+  .button.black {
+	padding: 10px 30px; /* Specific padding for black buttons */
+	background-color: black;
+	color: white;
+	&:hover {
+	  background-color: var(--base);
+	  color: var(--base-100);
+	}
   }
-}
+  
+  /* Add this class for button spacing */
+  .button-spacing {
+	margin-top: 10px;
+	margin-right: 15px; /* Adjust the margin as needed */
+	margin-bottom: 10px;
+  }
+  
 
 h1
 {
@@ -227,11 +230,12 @@ h1
     }
     .call-to-action
     {
+	  
       margin-top: 20px;
       margin-bottom: 10px;
       a
       {
-        margin-right: 10px;
+        margin-right: 20px;
         margin-bottom: 10px;
       }
     }
