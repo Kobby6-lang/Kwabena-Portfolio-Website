@@ -54,7 +54,7 @@ export default function Home() {
                         My experience working as a waiter at Shoryu Restaurant has equipped me with valuable customer service skills and a strong work ethic.<br /><br />
                         I am seeking a placement in the video games industry to leverage my 3D modelling capabilities and further my career in game design.<span>
                         I'm also getting my hands on coding to have more options in my career path.<br />
-                        My interests are watching anime, reading manga/manhua/manhwa and light novels, playing games, and playing badminton and table tennis.
+                        My interests are watching anime, reading manga and light novels, playing games, and playing badminton.
                         </span>
                     </p>
                       <div className="call to action">
