@@ -2,7 +2,7 @@ import "./globals.css";
 import Head from 'next/head'
 
 export const metadata = {
-  title: "Website Portfolio",
+  title: "Kwabena Portfolio Website",
   description: "Portfolio Website design",
 };
 
