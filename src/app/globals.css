@@ -498,8 +498,8 @@ h3
 				grid-row: span 8;
 				@media(max-width:1024px)
 		        {
-			        grid-column: span 5;
-				    grid-row: span 2;
+			        grid-column: span 4;
+				    grid-row: span 3;
 		        } 
 			}
 		}	
