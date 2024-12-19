@@ -48,7 +48,6 @@ export default function Home() {
                         My interests are watching anime, reading manga/manhua/manhwa and light novels, playing games, and playing badminton and table tennis.
                         </span>
                     </p>
-                    <br />
                     <div className="call to action">
                         <a href="./Kwabena CV template.pdf" className="button black"> 
                             View Resume
