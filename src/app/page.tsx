@@ -1,6 +1,15 @@
+"use client";
+import React from "react";
+import {useState} from "react";
 import Image from "next/image";
-
 export default function Home() {
+
+  const[menuOpen, setMenuOpen] = useState(false);
+
+  const toggleMobileMenu = () => 
+  {
+    setMenuOpen(!menuOpen);
+  }
   return (
     <>
     <header>
@@ -9,9 +18,9 @@ export default function Home() {
             <div className="logo-text">Kwabena Website</div>
         </a>
         <nav>
-            <ul id="menu">
+            <ul id="menu" className={menuOpen ? "active" : ""}>
                 <li>
-                    <a href="#">Home</a>
+                    <a href="#home">Home</a>
                 </li>
                 <li>
                     <a href="#skills">Skills</a>
@@ -23,7 +32,7 @@ export default function Home() {
                     <a href="mailto: koseitutu03@gmail.com" className="button">Contact Me</a>
                 </li>
             </ul>
-            <a href="#" class="mobile-toggle" onClick="toggleMobileMenu();">
+            <a href="#" className="mobile-toggle" onClick={toggleMobileMenu}>
                 <svg className="w-6 h-6 text-gray-800 dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" 
                 width="24" height="24" fill="none" viewBox="0 0 24 24">
                     <path stroke="currentColor" stroke-linecap="round" stroke-width="2" d="M5 7h14M5 12h14M5 17h10"/>
