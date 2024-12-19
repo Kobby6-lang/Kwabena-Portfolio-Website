@@ -136,7 +136,7 @@ export default function Home() {
         </section>
         <section id="projects" className="bento container">
             <h2>
-                Completed Projects
+                Projects
             </h2>
             <div className="bento-grid">
                 <a href="https://www.artstation.com/ks1jr" className="bento-item">
