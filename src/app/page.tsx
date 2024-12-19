@@ -58,7 +58,7 @@ export default function Home() {
                     </div>
                     <div className="social-links">
                         <a href="https://linktr.ee/kobby6">
-                            <img src="./imgs/Linktree.png" alt="Github" width="48" />
+                            <img src="./imgs/Linktree.png" alt="Github" width="48" /> 
                         </a>
                         <a href="https://www.linkedin.com/in/kwabena-osei-tutu-a38078223/">
                             <img src="./imgs/linkedin.png" alt="Linkedin" width="48" />
@@ -147,6 +147,9 @@ export default function Home() {
                 </a>
                 <a href="https://www.artstation.com/ks1jr" className="bento-item">
                     <img src="./imgs/Portfolio-6.png" alt="Portfolio 5" width="100%"/>
+                </a>
+                <a href="https://www.artstation.com/ks1jr" className="bento-item">
+                    <img src="./imgs/Portfolio-7.png" alt="Portfolio 5" width="100%"/>
                 </a>
             </div>
         </section>
